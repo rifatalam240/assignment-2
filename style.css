@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  border: 0.1px solid red;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+.navbar {
+  align-items: center;
+  gap: 300px;
+  display: flex;
+  justify-content: center;
+}
+.baglogo {
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+.uldiv {
+  gap: 20px;
+}
+.hafa {
+  font-size: 20px;
+}
+.hafa-home {
+  text-decoration: none;
+  font-size: 20px;
+  color: orange;
+}
+.hafa-about {
+  text-decoration: none;
+  font-size: 20px;
+  color: skyblue;
+}
+.hafa-facilities {
+  text-decoration: none;
+  color: rgba(5, 212, 223, 1);
+  font-size: 20px;
+}
+.hafa-admission {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgba(93, 88, 239, 1);
+}
+.scl {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.btndiv {
+  display: flex;
+}
+.ulanchor {
+  gap: 20px;
+  display: flex;
+}
+.hometag {
+  gap: 20px;
+  list-style: none;
+}
+.btntag {
+  border-radius: 12px;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  outline: none;
+  border: none;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.enrollbtn {
+  padding: 10px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.towards {
+  color: skyblue;
+}
+.dynamic {
+  color: rgba(17, 17, 17, 1);
+  font-size: 20px;
+}
+.emp {
+  color: orange;
+}
+.firstsec {
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  display: flex;
+}
+.standard {
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+  color: #000000;
+}
+.headingtwo {
+  text-align: center;
+}
+.headline {
+  line-height: 61px;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.kinder {
+  background-color: rgba(222, 245, 255, 1);
+}
+.years {
+  color: rgba(32, 32, 32, 1);
+  font-size: 25px;
+  font-weight: bold;
+}
+.yearsptag {
+  color: rgba(128, 128, 128, 1);
+  font-size: 15px;
+}
+.elementary {
+  background-color: rgba(255, 244, 220, 1);
+}
+.readone {
+  color: rgba(100, 200, 255, 1);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.readtwo {
+  color: rgba(240, 170, 0, 1);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.readthree {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(135, 0, 255, 1);
+}
+.middle {
+  background-color: rgba(242, 232, 255, 1);
+}
+.containerone {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kinder,
+.elementary,
+.middle {
+  border-radius: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 370px;
+  height: 480px;
+}
+.oursec {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.psec {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.storyoneimg {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  width: 100%;
+}
+.firstdiv-container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  gap: 10px;
+  height: 630px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.thirdsection {
+  height: 630px;
+  height: auto;
+  width: 1440px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+  border-radius: 16px;
+  /* width: 540px;
+  height: 630px; */
+  gap: 20px;
+  /* position: relative; */
+}
+.smp {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 29px;
+}
+.storybtnone {
+  width: 175px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  margin-left: 30px;
+  background-color: #3cd8e8;
+  border-radius: 48px;
+  margin-top: -30px;
+}
+.classroom {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 38px;
+  color: #000000;
+}
+.last-div {
+  border-radius: 16px;
+  position: relative;
+}
+.storybtnzero {
+  font-size: 15px;
+  color: white;
+  margin-left: 20px;
+  margin-top: -20px;
+  border: none;
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  background-color: #95b226;
+  display: block;
+  border-radius: 48px;
+}
+.storybtntwo {
+  font-size: 15px;
+  background-color: #5d58f0;
+  color: white;
+  position: absolute;
+  display: block;
+  border-radius: 48px;
+  margin-left: 20px;
+  margin-top: -20px;
+  border: none;
+  width: 150px;
+  height: 30px;
+}
+.storybtnthree {
+  font-size: 15px;
+  background-color: #95b226;
+  color: white;
+  position: absolute;
+  display: block;
+  border-radius: 48px;
+  margin-left: 20px;
+  margin-top: -20px;
+  border: none;
+  width: 150px;
+  height: 30px;
+}
+.smbtn {
+  font-size: 15px;
+  border: none;
+  color: white;
+  margin-left: 30px;
+  margin-top: -20px;
+  display: block;
+  position: absolute;
+  background-color: #95b226;
+  width: 127px;
+  height: 30px;
+  border-radius: 48px;
+}
+.smdivcontainer {
+  height: 613px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.smimg {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.twopdiv {
+  top: 120px;
+}
+.lastbtn {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  height: auto;
+  width: 150px;
+}
+.lastbtndiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-cotainer {
+  background-color: #01acfd;
+}
+.bagimg {
+  height: 81px;
+  width: 70px;
+}
+.boldp {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 39px;
+  color: white;
+}
+.baglogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abscl {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+.smli {
+  list-style: none;
+}
+.sma {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.licontainer {
+  gap: 30px;
+}
+.touch {
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+}
+.fivecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.smlogoimg {
+  display: flex;
+  justify-content: center;
+}
+.okbye {
+  gap: 10px;
+  display: flex;
+}
+.main-cotainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
